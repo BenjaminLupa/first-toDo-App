@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  text-align: center;
+}
+
+.list-element {
+  border: 1px solid black;
+  width: 150px;
+  height: 30px;
+  padding-left: 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-block-start: 7px;
+  background-color: beige;
+  margin-inline: auto;
+}
+#list {
+  background-color: crimson;
+  width: 300px;
+  min-height: 60vh;
+  border-radius: 15px;
+  padding-block: 15px;
+}
+
+#anzeige {
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.578);
+  padding-block: 2px;
+  border-radius: 4px;
+  margin-block: 15px;
+  color: beige;
+  accent-color: crimson;
+}
+.so {
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.578);
+  padding-block: 30px;
+  border-radius: 4px;
+  margin-block: 15px;
+}
+
+.knopf {
+  background-color: crimson;
+  border: none;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.container {
+  background-color: rgb(85, 76, 76);
+  padding: 20px;
+  margin-top: 18px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: crimson;
+}
+
+.check {
+  accent-color: rgb(85, 76, 76);
+  margin-right: 15px;
+}
+#loeschen {
+  margin-top: 10px;
+}
+
+#uebergebenerText {
+  padding: 4px;
+  border-radius: 5px;
+  border: none;
+  background-color: beige;
+}
